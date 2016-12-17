@@ -89,6 +89,7 @@ fn main() {
 
         // Kafka part
         // TODO: unwrap is not acceptable here
+        // TODO: Put this is a coroutine (tokio?)
         deal_with_kafka(data.as_bytes(), broker, topic, key).unwrap();
     }
 }
