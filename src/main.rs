@@ -31,8 +31,7 @@ fn main() {
             "-i, --interface=[interface]    'Set an interface to listen on'
             -b, --broker=[broker]           'Set a kafka broker'
             -t, --topic=[topic]             'Set a kafka topic'
-            -k, --key=[key]                 'Set a kafka key'
-            -C, --consumer                  'Set packet-tracker in consumer mode'"
+            -k, --key=[key]                 'Set a kafka key'"
         )
         .get_matches();
 
